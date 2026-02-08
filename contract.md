@@ -1,6 +1,6 @@
 Grading Contract
 ================
-January 27 2026
+February 08 2026
 
 <!-- This contract is adapted from Annie Somerville's contract https://github.com/anniehsom -->
 
@@ -49,25 +49,26 @@ Thanks!
 - [ ] Module 04, 02/02 - 02/06 : Data types and Data Transformations
 
   - Finish Lab 4 by Friday: 02/06
-  - Finish portfolio piece 2 by Friday: 02/06
 
 - [ ] Module 05, 02/09 - 02/13 : Tips for effective data visualization
 
   - Finish Lab 5 by Friday: 02/13
-  - Finish portfolio piece 3 by Friday: 02/13
+  - Finish portfolio piece 2 by Saturday: 02/14
 
 - [ ] Module 06, 02/16 - 02/20 : Scientific studies and confounding
 
   - Finish Lab 6 by Friday: 02/20
-  - Finish portfolio piece 4 by Friday: 02/27
+  - Finish portfolio piece 3 by Friday: 02/20
   - Schedule a check-in with Mason by Friday: 02/20
 
 - [ ] Module 07, 02/23 - 02/27 : Web scraping
 
   - Finish Lab 7 by Friday: 02/27
-  - Finish portfolio piece 5 by Friday: 02/27
+  - Finish portfolio piece 4 by Friday: 02/27
 
 - [ ] Module 08, 03/02 - 03/06 : Functions
+
+  - Finish portfolio piece 5 by Friday: 02/13
 
 - [ ] Module 09, 03/09 - 03/13 : Data and Ethics
 

@@ -95,6 +95,20 @@ advdate <- function(weekonemonday,
                  "m",
                  "mon")) {
       tmp <- paste0(tmon)
+    } else if (assignment %in% 
+               c("Saturday", 
+                 "saturday", 
+                 "sat", 
+                 "Sat", 
+                 "S")) {
+      tmp <- paste0(tsat)
+    } else if (assignment %in%
+               c("Sunday", 
+                 "sunday", 
+                 "sun", 
+                 "Sun", 
+                 "U")) {
+      tmp <- paste0(tsun)
     }
   } else{
     tmp <- paste0(unit, zadv, ", ", tmon, " - ", tfri, " : ", topic[week])
@@ -106,6 +120,7 @@ advdate <- function(weekonemonday,
 #  
 #  dayone <- as.Date("2022-01-10")
 #  startweek <- "Friday"
+#  sat <- "Saturday"
 #} else {
 
 dayone <- as.Date(params$weekonemonday)
@@ -174,45 +189,44 @@ I, `r params$name`, agree to :
   
 - [ ] `r advdate(dayone, 4, topic)`
   - Finish Lab 4  by `r startweek`:  `r advdate(dayone, 4, assignment=startweek)`
-  - Finish portfolio piece 2 by `r startweek`:  `r advdate(dayone, 4, assignment=startweek)`
   
 - [ ] `r advdate(dayone, 5, topic)`
   - Finish Lab 5  by `r startweek`:  `r advdate(dayone, 5, assignment=startweek)`
-  - Finish portfolio piece 3 by `r startweek`:  `r advdate(dayone, 5, assignment=startweek)`
+  - Finish portfolio piece 2 by Saturday:  `r advdate(dayone, 5, assignment="sat")`
 
 - [ ] `r advdate(dayone, 6, topic)`
-  - Finish Lab 6 by `r startweek`:  `r advdate(dayone, 6, assignment=startweek)`
-  - Finish portfolio piece 4 by `r startweek`:  `r advdate(dayone, 7, assignment=startweek)`
+  - Finish Lab 6 by `r startweek`:  `r advdate(dayone, 6, assignment="sat")`
+  - Finish portfolio piece 3 by Saturday:  `r advdate(dayone, 6, assignment=startweek)`
   - Schedule a check-in with Mason by `r startweek`:  `r advdate(dayone, 6, assignment=startweek)`
   
 - [ ] `r advdate(dayone, 7, topic)`
   - Finish Lab 7 by `r startweek`:  `r advdate(dayone, 7, assignment=startweek)`
-  - Finish portfolio piece 5 by `r startweek`:  `r advdate(dayone, 7, assignment=startweek)`
+  - Finish portfolio piece 4 by Saturday:  `r advdate(dayone, 7, assignment="sat")`
 
 - [ ] `r advdate(dayone, 8, topic)`
-
+  - Finish portfolio piece 5 by Saturday:  `r advdate(dayone, 5, assignment="sat")`
 
 - [ ] `r advdate(dayone, 9, topic)`
   - Finish Lab 9 by `r startweek`:  `r advdate(dayone, 9, assignment=startweek)`
-  - Finish portfolio piece 6 by `r startweek`:  `r advdate(dayone, 9, assignment=startweek)`
+  - Finish portfolio piece 6 by Saturday:  `r advdate(dayone, 9, assignment="sat")`
 
 - [ ] `r advdate(dayone, 10, topic)`
   - Finish Lab 10 by `r startweek`:  `r advdate(dayone, 10, assignment=startweek)`
-  - Finish portfolio pieces 7 by `r startweek`:  `r advdate(dayone, 10, assignment=startweek)`
+  - Finish portfolio pieces 7 by Saturday:  `r advdate(dayone, 10, assignment="sat")`
   
 - [ ] `r advdate(dayone, 11, topic)`
   - Finish Lab 11 by `r startweek`:  `r advdate(dayone, 11, assignment=startweek)`
-  - Finish portfolio pieces 8 by `r startweek`:  `r advdate(dayone, 11, assignment=startweek)`
+  - Finish portfolio pieces 8 by Saturday:  `r advdate(dayone, 11, assignment="sat")`
 
 - [ ] `r advdate(dayone, 12, topic)`
   `r if(params$labs>=12) paste0(" - Finish Lab 12 by ",startweek,": ",advdate(dayone, 12, assignment=startweek))`
-  - Finish portfolio pieces 9 by `r startweek`:  `r advdate(dayone, 12, assignment=startweek)`
+  - Finish portfolio pieces 9 by Saturday:  `r advdate(dayone, 12, assignment="sat")`
 
 - [ ] `r advdate(dayone, 13, topic)`
   `r if(params$labs>=13) paste0(" - Finish Lab 13 by ",startweek,": ",advdate(dayone, 13, assignment=startweek))`
 
 - [ ] `r advdate(dayone, 14, topic)`
-  - Finish portfolio piece 10 by `r startweek`:  `r advdate(dayone, 14, assignment=startweek)`
+  - Finish portfolio piece 10 by Saturday:  `r advdate(dayone, 14, assignment="sat")`
   
 - [ ] `r advdate(dayone, 15, topic)`
   
