@@ -1,6 +1,6 @@
 Grading Contract
 ================
-February 08 2026
+February 27 2026
 
 <!-- This contract is adapted from Annie Somerville's contract https://github.com/anniehsom -->
 
@@ -57,43 +57,44 @@ Thanks!
 
 - [ ] Module 06, 02/16 - 02/20 : Scientific studies and confounding
 
-  - Finish Lab 6 by Friday: 02/20
-  - Finish portfolio piece 3 by Friday: 02/20
+  - Finish Lab 6 by Friday: 02/21
+  - Finish portfolio piece 3 by Saturday: 02/20
   - Schedule a check-in with Mason by Friday: 02/20
 
 - [ ] Module 07, 02/23 - 02/27 : Web scraping
 
   - Finish Lab 7 by Friday: 02/27
-  - Finish portfolio piece 4 by Friday: 02/27
 
 - [ ] Module 08, 03/02 - 03/06 : Functions
 
-  - Finish portfolio piece 5 by Friday: 02/13
+  - Finish portfolio piece 4 by Saturday: 03/07
 
 - [ ] Module 09, 03/09 - 03/13 : Data and Ethics
 
   - Finish Lab 9 by Friday: 03/13
-  - Finish portfolio piece 6 by Friday: 03/13
+  - Finish portfolio piece 5 by Saturday: 03/14
 
 - [ ] Module 10, 03/16 - 03/20 : Fitting and interpreting models
 
   - Finish Lab 10 by Friday: 03/20
-  - Finish portfolio pieces 7 by Friday: 03/20
+  - Finish portfolio pieces 6 by Saturday: 03/21
 
 - [ ] Module 11, 03/23 - 03/27 : Prediction and overfitting
 
   - Finish Lab 11 by Friday: 03/27
-  - Finish portfolio pieces 8 by Friday: 03/27
+  - Finish portfolio pieces 7 by Saturday: 03/28
 
 - [ ] Module 12, 03/30 - 04/03 : Cross validation
 
-  - Finish portfolio pieces 9 by Friday: 04/03
+  - Finish portfolio pieces 8 by Saturday: 04/04
 
 - [ ] Module 13, 04/06 - 04/10 : Quantifying uncertainty
 
+  - Finish portfolio pieces 9 by Saturday: 04/11
+
 - [ ] Module 14, 04/13 - 04/17 : Interactive web apps
 
-  - Finish portfolio piece 10 by Friday: 04/17
+  - Finish portfolio piece 10 by Saturday: 04/18
 
 - [ ] Module 15, 04/20 - 04/24 : Special Topics
 
